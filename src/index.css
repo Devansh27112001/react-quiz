@@ -171,6 +171,12 @@ progress {
   transform: translateX(2rem);
 }
 
+.answer.wrong {
+  background-color: hsl(0, 100%, 60%);
+  border: 2px solid var(--color-darkest);
+  color: var(--color-light);
+}
+
 .result {
   background-color: var(--color-theme);
   color: var(--color-light);
