@@ -1,4 +1,7 @@
-function StartScreen({ numQuestions, dispatch }) {
+import { useQuiz } from "../context/QuizContext";
+
+function StartScreen({ numQuestions }) {
+  const { dispatch } = useQuiz();
   return (
     <div className="start">
       <h2>Welcome to the Qeact quiz</h2>
